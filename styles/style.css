@@ -62,6 +62,10 @@
   color:  #2f80ed ;
 }
 
+.header__link:hover {
+  color: red;
+}
+
 .header__main-illustration {
   position: absolute;
   width: 765px;
@@ -95,6 +99,7 @@
 
 .two-columns__brief{
   width: 175px;
+  margin-top: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -225,6 +230,10 @@
   font-weight: normal;
 }
 
+.feynman__link:hover {
+  color: red;
+}
+
 .feynman__img{
   position: absolute;
   width: 867px;
@@ -241,7 +250,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: column;
-  background-color: black;
+  background-color:  #1f1f1f;
   overflow: hidden;
 }
 
@@ -266,15 +275,7 @@
 }
 
 .table_theme_dark {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 1100px;
-  margin: auto;
-  margin-bottom: 90px;
-  justify-content: space-between;
-  z-index: 1;
-  padding: 0px;
+ z-index: 1;
 }
 
 .table__cell_theme_dark {
@@ -314,7 +315,7 @@
    min-height: 350px;
    padding-top: 60px;
    padding-bottom: 40px;
-   background-color: black;
+   background-color: #1f1f1f;
  }
 
  .footer__columns{
@@ -323,7 +324,7 @@
   justify-content: space-between;
   width: 90%;
   margin: 0 auto;
-  background-color: black;
+  background-color: #1f1f1f;
  }
 
  .footer__column{
@@ -333,13 +334,13 @@
   flex-wrap: wrap;
   justify-content: space-between;
   color: #f2f2f2;
-  background-color:black;
+  background-color: #1f1f1f;
  }
 
  .footer__column_content_copyright{
    flex-basis: 711px;
    align-content: flex-start;
-   }
+}
 
 .footer__author{
   display: flex;
@@ -350,11 +351,6 @@
   color: #f2f2f2;
 }
 
-.logo{
-  width: 183px;
-  background-size: cover;
-}
-
  .logo_place_footer{
   height: 35px;
   background-image: url(../images/logo_place_footer.svg);
@@ -363,12 +359,10 @@
  .footer__column_content_info{
   display: flex;
   justify-content: flex-start;
-  color: #f2f2f2;
-
-}
+  }
 
 .footer__column-heading{
-  margin-top: 0;
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -376,15 +370,26 @@
 
 .footer__column-links{
   flex-direction: column;
-  margin: 20px 0 16px;
   margin-left:0;
   padding-left: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  list-style: none;
+  list-style-type: none;
+  text-decoration: white;
+  margin:20px 0 16px;
+}
+
+.footer__link{
+  list-style-type: none;
   text-decoration: none;
   color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__link:hover{
+color: red;
 }
 
 .footer__column_content_social{
@@ -394,13 +399,13 @@
 
 .footer__social-icon{
   flex-direction: column;
-  margin: 20px 0 16px;
-  margin-left:0;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   list-style: none;
-  text-decoration: none;
   color: white;
 }
+
+
