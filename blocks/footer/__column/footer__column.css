@@ -1,0 +1,13 @@
+@import url(_content/footer__column_content_copyright.css);
+@import url(_content/footer__column_content_info.css);
+@import url(_content/footer__column_content_social.css);
+
+.footer__column{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #f2f2f2;
+  background-color: #1f1f1f;
+ }
