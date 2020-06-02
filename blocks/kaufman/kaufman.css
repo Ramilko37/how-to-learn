@@ -23,4 +23,5 @@
   align-items: column;
   background-color:  #1f1f1f;
   overflow: hidden;
+  padding-top: -10px;
 }

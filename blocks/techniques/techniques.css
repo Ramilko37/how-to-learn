@@ -4,9 +4,11 @@
 
 
 .techniques{
-  width: 80%;
-  margin: auto;
-
-
-  border: red solid 1px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
