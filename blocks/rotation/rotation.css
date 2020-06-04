@@ -7,4 +7,6 @@
   }
 }
 
-
+.rotation{
+animation: rotation linear infinite 20s;
+}
